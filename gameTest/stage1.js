@@ -153,20 +153,20 @@ update() {
 
         //character movement
      if (this.cursors.left.isDown) {
-        this.player.body.setVelocityX(-300);
+        this.player.body.setVelocityX(-250);
         this.player.anims.play("left", true); 
       } 
       else if (this.cursors.right.isDown) {
-        this.player.body.setVelocityX(300);
+        this.player.body.setVelocityX(250);
         this.player.anims.play("right", true);
       } 
       else if (this.cursors.up.isDown) {
-        this.player.body.setVelocityY(-300);
+        this.player.body.setVelocityY(-250);
         this.player.anims.play("back", true);
         //console.log('up');
       } 
       else if (this.cursors.down.isDown) {
-        this.player.body.setVelocityY(300);
+        this.player.body.setVelocityY(250);
         this.player.anims.play("front", true);
         //console.log('down');
       } 
